@@ -10,7 +10,7 @@ let en = {
             smallImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-720.png'
         }
     },
-    url: 'https://audio1.maxi80.com',
+    url: 'https://stream.radiojar.com/pepper.m3u',
     startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'    
 };
 
