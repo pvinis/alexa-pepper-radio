@@ -1,3 +1,5 @@
+from https://github.com/alexa/skill-sample-nodejs-audio-player
+
 # Single Stream Audio Skill (My Radio)
 
 This skill demonstrates how to create a single stream audio skill.  Single stream skills are typically used by radio stations to provide a convenient and quick access to their live stream.
