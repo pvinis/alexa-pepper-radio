@@ -3,7 +3,7 @@
 module.exports = Object.freeze({
     
     //App-ID. TODO: set to your own Skill App ID from the developer portal.
-    //appId : 'amzn1.ask.skill.123',
+    appId : 'amzn1.ask.skill.4c4ad0df-ed28-473f-ab52-d813dd2c2b84',
 
     // when true, the skill logs additional detail, including the full request received from Alexa
     debug : true,
