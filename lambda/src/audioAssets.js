@@ -3,14 +3,15 @@
 let en = {
     card : {
         title: 'Pepper Radio',
-        subtitle: 'Pepper',
-        cardContent: "Visit our web site https://www.pepper966.gr",
+        subtitle: 'Less bla bla, more la la',
+        cardContent: "Visit our web site https://www.myradio.com",
         image: {
             largeImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-1200.png',
             smallImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-720.png'
         }
     },
-    url: 'https://www.pepper966.gr'
+    url: 'https://audio1.maxi80.com',
+    startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'    
 };
 
 let globalAudioData = {

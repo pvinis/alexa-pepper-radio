@@ -1,17 +1,17 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "pepper",
+      "invocationName": "pepper radio",
       "intents": [
         {
           "name": "PlayAudio",
           "samples": [
             "play",
             "start",
-            "play pepper",
-            "play pepper please",
-            "start pepper",
-            "start pepper please",
+            "play pepper radio",
+            "play pepper radio please",
+            "start pepper radio",
+            "start pepper radio please",
             "start the radio",
             "start the radio please",
             "start the audio",
@@ -37,7 +37,7 @@
             "help please",
             "what should i do",
             "what's next",
-            "how can I listen to my radio",
+            "how can I listen to pepper radio",
             "tell me how to play",
             "tell me how to stop",
             "tell me how to resume",

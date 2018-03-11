@@ -3,8 +3,17 @@
 module.exports = Object.freeze({
     
     //App-ID. TODO: set to your own Skill App ID from the developer portal.
-    appId : 'amzn1.ask.skill.ba10aa01-922d-4342-ab56-5ef4f757c137',
+    //appId : 'amzn1.ask.skill.123',
 
     // when true, the skill logs additional detail, including the full request received from Alexa
-    debug : true
+    debug : true,
+
+    // when defined, it tries to read / write DynamoDB to save the last time Jingle was played for that user
+    // this allows to avoid to repaet the jingle at each invocation 
+    jingle : {
+        databaseTable : "my_radio",
+        playOnceEvery : 1 * 60 * 60 * 24 // 24 hours
+        //playOnceEvery : 1 * 60 * 3 // 3 minutes 
+    }
+
 });

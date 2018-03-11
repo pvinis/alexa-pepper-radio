@@ -1,6 +1,6 @@
 from https://github.com/alexa/skill-sample-nodejs-audio-player
 
-# Single Stream Audio Skill (My Radio)
+# Single Stream Audio Skill (Pepper Radio)
 
 This skill demonstrates how to create a single stream audio skill.  Single stream skills are typically used by radio stations to provide a convenient and quick access to their live stream.
 
@@ -9,7 +9,7 @@ User interface is limited to Play and Stop use cases.
 ## Usage
 
 ```text
-Alexa, play my radio
+Alexa, play pepper radio
 
 Alexa, stop
 ```
@@ -60,7 +60,7 @@ $ (cd lambda/src && npm install)
 ```javascript
 var audioData = {
     card : {
-        title: 'My Radio',
+        title: 'Pepper Radio',
         subtitle: 'Less bla bla, more la la',
         cardContent: "Visit our web site https://www.myradio.com",
         image: {
@@ -75,7 +75,7 @@ var audioData = {
 
 3. ```./models/*.json```
 
-   Change the model defintion to replace the invocation name (it defaults to "my radio") and the sample phrases for each intent.  
+   Change the model defintion to replace the invocation name (it defaults to "pepper radio") and the sample phrases for each intent.  
 
    Repeat the operation for each locale you are planning to support.
 
@@ -161,7 +161,7 @@ You can test your deployment by FIRST ENABLING the TEST switch on your skill in 
 Then
 
 ```bash
- $ ask simulate -l en-GB -t "alexa, play my radio"
+ $ ask simulate -l en-GB -t "alexa, play pepper radio"
  
  ✓ Simulation created for simulation id: 4a7a9ed8-94b2-40c0-b3bd-fb63d9887fa7
 ◡ Waiting for simulation response{
@@ -186,8 +186,8 @@ $ ask api list-skills
     {
       "lastUpdated": "2017-10-08T08:06:34.835Z",
       "nameByLocale": {
-        "en-GB": "My Radio",
-        "en-US": "My Radio"
+        "en-GB": "Pepper radio",
+        "en-US": "Pepper radio"
       },
       "skillId": "amzn1.ask.skill.123",
       "stage": "development"
@@ -219,5 +219,5 @@ See https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command
 Then, just say :
 
 ```text
-Alexa, open my radio.
+Alexa, open pepper radio.
 ```
