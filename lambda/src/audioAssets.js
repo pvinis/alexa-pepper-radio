@@ -6,8 +6,8 @@ let en = {
         subtitle: 'Pepper',
         cardContent: "Visit our web site https://www.pepper966.gr",
         image: {
-            largeImageUrl: 'https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png',
-            smallImageUrl: 'https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png'
+            largeImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-1200.png',
+            smallImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-720.png'
         }
     },
     url: 'https://www.pepper966.gr'

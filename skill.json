@@ -15,8 +15,8 @@
           ],
           "name": "Pepper Radio",
           "description": "Listen to Pepper Radio.",
-          "smallIconUri": "https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png",
-          "largeIconUri": "https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png"
+          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
+          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
         },
         "en-GB": {
           "summary": "Listen to Pepper Radio.",
@@ -31,8 +31,8 @@
           ],
           "name": "Pepper Radio",
           "description": "Listen to Pepper Radio.",
-          "smallIconUri": "https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png",
-          "largeIconUri": "https://www.pepper966.gr/wp-content/uploads/2014/07/pepper-logo.png"
+          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
+          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
         }
       },
       "isAvailableWorldwide": true,
