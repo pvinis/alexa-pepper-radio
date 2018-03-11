@@ -4,5 +4,6 @@
 # node
 **/node_modules
 
-# vs code
+# other
 .vscode
+*.zip
