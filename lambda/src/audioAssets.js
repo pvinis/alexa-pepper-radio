@@ -11,7 +11,7 @@ let en = {
         }
     },
     url: 'https://stream.radiojar.com/pepper.m3u',
-    startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'    
+    startJingle: 'https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/jingle.m4a',
 };
 
 let globalAudioData = {
